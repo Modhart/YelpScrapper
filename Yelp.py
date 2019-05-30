@@ -1,10 +1,5 @@
 # -*- coding: utf-8 -*-
-"""
-Yelp Fusion API code sample.
 
-Sample usage of the program:
-python sample.py --term="bars" --location="San Francisco, CA"
-"""
 from __future__ import print_function
 from pandas.io.json import json_normalize
 import os.path
@@ -15,8 +10,6 @@ import requests
 import sys
 import urllib
 import csv
-
-
 
 # This client code can run on Python 2.x or 3.x.  Your imports can be
 # simpler if you only need one of those.
